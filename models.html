@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Learning Models</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const modelList = document.getElementById('model-list');
 
-            fetch('data/models.json')
+            fetch('src/data/models.json')
                 .then(response => response.json())
                 .then(data => {
                     data.models.forEach(category => {
@@ -111,7 +111,7 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="src/js/scripts.js"></script>
     <footer>
         <p>&copy; 2025 ML Library. @nieche </p>
     </footer>

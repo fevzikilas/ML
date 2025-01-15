@@ -8,47 +8,47 @@
           "algorithms": [
             {
               "name": "Linear Regression",
-              "description": "data/models/Linear Regression.txt"
+              "description": "src/data/models/Linear Regression.txt"
             },
             {
               "name": "Polynomial Regression",
-              "description": "data/models/Polynomial Regression.txt"
+              "description": "src/data/models/Polynomial Regression.txt"
             },
             {
               "name": "Ridge Regression",
-              "description": "data/models/Ridge Regression.txt"
+              "description": "src/data/models/Ridge Regression.txt"
             },
             {
               "name": "Lasso Regression",
-              "description": "data/models/Lasso Regression.txt"
+              "description": "src/data/models/Lasso Regression.txt"
             },
             {
               "name": "Elastic Net Regression",
-              "description": "data/models/Elastic Net Regression.txt"
+              "description": "src/data/models/Elastic Net Regression.txt"
             },
             {
               "name": "Support Vector Regression (SVR)",
-              "description": "data/models/Support Vector Regression (SVR).txt"
+              "description": "src/data/models/Support Vector Regression (SVR).txt"
             },
             {
               "name": "Decision Tree Regression",
-              "description": "data/models/Decision Tree Regression.txt"
+              "description": "src/data/models/Decision Tree Regression.txt"
             },
             {
               "name": "Random Forest Regression",
-              "description": "data/models/Random Forest Regression.txt"
+              "description": "src/data/models/Random Forest Regression.txt"
             },
             {
               "name": "Gradient Boosting Regression (e.g., XGBoost, LightGBM, CatBoost)",
-              "description": "data/models/Gradient Boosting Regression (e.g., XGBoost, LightGBM, CatBoost).txt"
+              "description": "src/data/models/Gradient Boosting Regression (e.g., XGBoost, LightGBM, CatBoost).txt"
             },
             {
               "name": "Bayesian Regression",
-              "description": "data/models/Bayesian Regression.txt"
+              "description": "src/data/models/Bayesian Regression.txt"
             },
             {
               "name": "K-Nearest Neighbors (KNN) Regression",
-              "description": "data/models/K-Nearest Neighbors (KNN) Regression.txt"
+              "description": "src/data/models/K-Nearest Neighbors (KNN) Regression.txt"
             }
           ]
         },
@@ -57,59 +57,59 @@
           "algorithms": [
             {
               "name": "Logistic Regression",
-              "description": "data/models/Logistic Regression.txt"
+              "description": "src/data/models/Logistic Regression.txt"
             },
             {
               "name": "Support Vector Machines (SVM)",
-              "description": "data/models/Support Vector Machines (SVM).txt"
+              "description": "src/data/models/Support Vector Machines (SVM).txt"
             },
             {
               "name": "K-Nearest Neighbors (KNN) Classification",
-              "description": "data/models/K-Nearest Neighbors (KNN) Classification.txt"
+              "description": "src/data/models/K-Nearest Neighbors (KNN) Classification.txt"
             },
             {
               "name": "Decision Trees",
-              "description": "data/models/Decision Trees.txt"
+              "description": "src/data/models/Decision Trees.txt"
             },
             {
               "name": "Random Forest Classification",
-              "description": "data/models/Random Forest Classification.txt"
+              "description": "src/data/models/Random Forest Classification.txt"
             },
             {
               "name": "Gradient Boosting Machines (GBM)",
-              "description": "data/models/Gradient Boosting Machines (GBM).txt"
+              "description": "src/data/models/Gradient Boosting Machines (GBM).txt"
             },
             {
               "name": "AdaBoost",
-              "description": "data/models/AdaBoost.txt"
+              "description": "src/data/models/AdaBoost.txt"
             },
             {
               "name": "XGBoost",
-              "description": "data/models/XGBoost.txt"
+              "description": "src/data/models/XGBoost.txt"
             },
             {
               "name": "LightGBM",
-              "description": "data/models/LightGBM.txt"
+              "description": "src/data/models/LightGBM.txt"
             },
             {
               "name": "CatBoost",
-              "description": "data/models/CatBoost.txt"
+              "description": "src/data/models/CatBoost.txt"
             },
             {
               "name": "Naive Bayes",
-              "description": "data/models/Naive Bayes.txt"
+              "description": "src/data/models/Naive Bayes.txt"
             },
             {
               "name": "Neural Networks (e.g., Multilayer Perceptron)",
-              "description": "data/models/Neural Networks (e.g., Multilayer Perceptron).txt"
+              "description": "src/data/models/Neural Networks (e.g., Multilayer Perceptron).txt"
             },
             {
               "name": "Quadratic Discriminant Analysis (QDA)",
-              "description": "data/models/Quadratic Discriminant Analysis (QDA).txt"
+              "description": "src/data/models/Quadratic Discriminant Analysis (QDA).txt"
             },
             {
               "name": "Linear Discriminant Analysis (LDA)",
-              "description": "data/models/Linear Discriminant Analysis (LDA).txt"
+              "description": "src/data/models/Linear Discriminant Analysis (LDA).txt"
             }
           ]
         }
@@ -123,31 +123,31 @@
           "algorithms": [
             {
               "name": "K-Means",
-              "description": "data/models/K-Means.txt"
+              "description": "src/data/models/K-Means.txt"
             },
             {
               "name": "Hierarchical Clustering",
-              "description": "data/models/Hierarchical Clustering.txt"
+              "description": "src/data/models/Hierarchical Clustering.txt"
             },
             {
               "name": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
-              "description": "data/models/DBSCAN (Density-Based Spatial Clustering of Applications with Noise).txt"
+              "description": "src/data/models/DBSCAN (Density-Based Spatial Clustering of Applications with Noise).txt"
             },
             {
               "name": "Mean Shift",
-              "description": "data/models/Mean Shift.txt"
+              "description": "src/data/models/Mean Shift.txt"
             },
             {
               "name": "Gaussian Mixture Models (GMM)",
-              "description": "data/models/Gaussian Mixture Models (GMM).txt"
+              "description": "src/data/models/Gaussian Mixture Models (GMM).txt"
             },
             {
               "name": "BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies)",
-              "description": "data/models/BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies).txt"
+              "description": "src/data/models/BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies).txt"
             },
             {
               "name": "Affinity Propagation",
-              "description": "data/models/Affinity Propagation.txt"
+              "description": "src/data/models/Affinity Propagation.txt"
             }
           ]
         },
@@ -156,31 +156,31 @@
           "algorithms": [
             {
               "name": "Principal Component Analysis (PCA)",
-              "description": "data/models/Principal Component Analysis (PCA).txt"
+              "description": "src/data/models/Principal Component Analysis (PCA).txt"
             },
             {
               "name": "Independent Component Analysis (ICA)",
-              "description": "data/models/Independent Component Analysis (ICA).txt"
+              "description": "src/data/models/Independent Component Analysis (ICA).txt"
             },
             {
               "name": "t-Distributed Stochastic Neighbor Embedding (t-SNE)",
-              "description": "data/models/t-Distributed Stochastic Neighbor Embedding (t-SNE).txt"
+              "description": "src/data/models/t-Distributed Stochastic Neighbor Embedding (t-SNE).txt"
             },
             {
               "name": "Linear Discriminant Analysis (LDA)",
-              "description": "data/models/Linear Discriminant Analysis (LDA).txt"
+              "description": "src/data/models/Linear Discriminant Analysis (LDA).txt"
             },
             {
               "name": "Factor Analysis",
-              "description": "data/models/Factor Analysis.txt"
+              "description": "src/data/models/Factor Analysis.txt"
             },
             {
               "name": "Non-Negative Matrix Factorization (NMF)",
-              "description": "data/models/Non-Negative Matrix Factorization (NMF).txt"
+              "description": "src/data/models/Non-Negative Matrix Factorization (NMF).txt"
             },
             {
               "name": "UMAP (Uniform Manifold Approximation and Projection)",
-              "description": "data/models/UMAP (Uniform Manifold Approximation and Projection).txt"
+              "description": "src/data/models/UMAP (Uniform Manifold Approximation and Projection).txt"
             }
           ]
         }
@@ -191,19 +191,19 @@
       "algorithms": [
         {
           "name": "Self-training",
-          "description": "data/models/Self-training.txt"
+          "description": "src/data/models/Self-training.txt"
         },
         {
           "name": "Co-training",
-          "description": "data/models/Co-training.txt"
+          "description": "src/data/models/Co-training.txt"
         },
         {
           "name": "Generative Adversarial Networks (GANs) for Semi-Supervised Learning",
-          "description": "data/models/Generative Adversarial Networks (GANs) for Semi-Supervised Learning.txt"
+          "description": "src/data/models/Generative Adversarial Networks (GANs) for Semi-Supervised Learning.txt"
         },
         {
           "name": "Graph-based Semi-Supervised Learning",
-          "description": "data/models/Graph-based Semi-Supervised Learning.txt"
+          "description": "src/data/models/Graph-based Semi-Supervised Learning.txt"
         }
       ]
     },
@@ -212,35 +212,35 @@
       "algorithms": [
         {
           "name": "Q-Learning",
-          "description": "data/models/Q-Learning.txt"
+          "description": "src/data/models/Q-Learning.txt"
         },
         {
           "name": "SARSA (State-Action-Reward-State-Action)",
-          "description": "data/models/SARSA (State-Action-Reward-State-Action).txt"
+          "description": "src/data/models/SARSA (State-Action-Reward-State-Action).txt"
         },
         {
           "name": "Deep Q-Networks (DQN)",
-          "description": "data/models/Deep Q-Networks (DQN).txt"
+          "description": "src/data/models/Deep Q-Networks (DQN).txt"
         },
         {
           "name": "Policy Gradient Methods",
-          "description": "data/models/Policy Gradient Methods.txt"
+          "description": "src/data/models/Policy Gradient Methods.txt"
         },
         {
           "name": "Actor-Critic Methods",
-          "description": "data/models/Actor-Critic Methods.txt"
+          "description": "src/data/models/Actor-Critic Methods.txt"
         },
         {
           "name": "Deep Deterministic Policy Gradient (DDPG)",
-          "description": "data/models/Deep Deterministic Policy Gradient (DDPG).txt"
+          "description": "src/data/models/Deep Deterministic Policy Gradient (DDPG).txt"
         },
         {
           "name": "Proximal Policy Optimization (PPO)",
-          "description": "data/models/Proximal Policy Optimization (PPO).txt"
+          "description": "src/data/models/Proximal Policy Optimization (PPO).txt"
         },
         {
           "name": "Trust Region Policy Optimization (TRPO)",
-          "description": "data/models/Trust Region Policy Optimization (TRPO).txt"
+          "description": "src/data/models/Trust Region Policy Optimization (TRPO).txt"
         }
       ]
     },
@@ -249,27 +249,27 @@
       "algorithms": [
         {
           "name": "Bagging (Bootstrap Aggregating)",
-          "description": "data/models/Bagging (Bootstrap Aggregating).txt"
+          "description": "src/data/models/Bagging (Bootstrap Aggregating).txt"
         },
         {
           "name": "Random Forest",
-          "description": "data/models/Random Forest.txt"
+          "description": "src/data/models/Random Forest.txt"
         },
         {
           "name": "Boosting (e.g., AdaBoost, Gradient Boosting)",
-          "description": "data/models/Boosting (e.g., AdaBoost, Gradient Boosting).txt"
+          "description": "src/data/models/Boosting (e.g., AdaBoost, Gradient Boosting).txt"
         },
         {
           "name": "Stacking",
-          "description": "data/models/Stacking.txt"
+          "description": "src/data/models/Stacking.txt"
         },
         {
           "name": "Voting Classifier",
-          "description": "data/models/Voting Classifier.txt"
+          "description": "src/data/models/Voting Classifier.txt"
         },
         {
           "name": "Blending",
-          "description": "data/models/Blending.txt"
+          "description": "src/data/models/Blending.txt"
         }
       ]
     },
@@ -278,39 +278,39 @@
       "algorithms": [
         {
           "name": "Convolutional Neural Networks (CNN)",
-          "description": "data/models/Convolutional Neural Networks (CNN).txt"
+          "description": "src/data/models/Convolutional Neural Networks (CNN).txt"
         },
         {
           "name": "Recurrent Neural Networks (RNN)",
-          "description": "data/models/Recurrent Neural Networks (RNN).txt"
+          "description": "src/data/models/Recurrent Neural Networks (RNN).txt"
         },
         {
           "name": "Long Short-Term Memory Networks (LSTM)",
-          "description": "data/models/Long Short-Term Memory Networks (LSTM).txt"
+          "description": "src/data/models/Long Short-Term Memory Networks (LSTM).txt"
         },
         {
           "name": "Gated Recurrent Unit (GRU)",
-          "description": "data/models/Gated Recurrent Unit (GRU).txt"
+          "description": "src/data/models/Gated Recurrent Unit (GRU).txt"
         },
         {
           "name": "Autoencoders",
-          "description": "data/models/Autoencoders.txt"
+          "description": "src/data/models/Autoencoders.txt"
         },
         {
           "name": "Generative Adversarial Networks (GANs)",
-          "description": "data/models/Generative Adversarial Networks (GANs).txt"
+          "description": "src/data/models/Generative Adversarial Networks (GANs).txt"
         },
         {
           "name": "Transformer Networks",
-          "description": "data/models/Transformer Networks.txt"
+          "description": "src/data/models/Transformer Networks.txt"
         },
         {
           "name": "BERT (Bidirectional Encoder Representations from Transformers)",
-          "description": "data/models/BERT (Bidirectional Encoder Representations from Transformers).txt"
+          "description": "src/data/models/BERT (Bidirectional Encoder Representations from Transformers).txt"
         },
         {
           "name": "GPT (Generative Pre-trained Transformer)",
-          "description": "data/models/GPT (Generative Pre-trained Transformer).txt"
+          "description": "src/data/models/GPT (Generative Pre-trained Transformer).txt"
         }
       ]
     },
@@ -319,19 +319,19 @@
       "algorithms": [
         {
           "name": "Bayesian Networks",
-          "description": "data/models/Bayesian Networks.txt"
+          "description": "src/data/models/Bayesian Networks.txt"
         },
         {
           "name": "Hidden Markov Models (HMM)",
-          "description": "data/models/Hidden Markov Models (HMM).txt"
+          "description": "src/data/models/Hidden Markov Models (HMM).txt"
         },
         {
           "name": "Markov Chain Monte Carlo (MCMC)",
-          "description": "data/models/Markov Chain Monte Carlo (MCMC).txt"
+          "description": "src/data/models/Markov Chain Monte Carlo (MCMC).txt"
         },
         {
           "name": "Gaussian Processes",
-          "description": "data/models/Gaussian Processes.txt"
+          "description": "src/data/models/Gaussian Processes.txt"
         }
       ]
     },
@@ -340,15 +340,15 @@
       "algorithms": [
         {
           "name": "K-Nearest Neighbors (KNN)",
-          "description": "data/models/K-Nearest Neighbors (KNN).txt"
+          "description": "src/data/models/K-Nearest Neighbors (KNN).txt"
         },
         {
           "name": "Locally Weighted Learning",
-          "description": "data/models/Locally Weighted Learning.txt"
+          "description": "src/data/models/Locally Weighted Learning.txt"
         },
         {
           "name": "Case-Based Reasoning",
-          "description": "data/models/Case-Based Reasoning.txt"
+          "description": "src/data/models/Case-Based Reasoning.txt"
         }
       ]
     },
@@ -357,19 +357,19 @@
       "algorithms": [
         {
           "name": "Genetic Algorithms (GA)",
-          "description": "data/models/Genetic Algorithms (GA).txt"
+          "description": "src/data/models/Genetic Algorithms (GA).txt"
         },
         {
           "name": "Genetic Programming (GP)",
-          "description": "data/models/Genetic Programming (GP).txt"
+          "description": "src/data/models/Genetic Programming (GP).txt"
         },
         {
           "name": "Evolutionary Strategies (ES)",
-          "description": "data/models/Evolutionary Strategies (ES).txt"
+          "description": "src/data/models/Evolutionary Strategies (ES).txt"
         },
         {
           "name": "Differential Evolution (DE)",
-          "description": "data/models/Differential Evolution (DE).txt"
+          "description": "src/data/models/Differential Evolution (DE).txt"
         }
       ]
     },
@@ -378,11 +378,11 @@
       "algorithms": [
         {
           "name": "Neural Evolution (combination of neural networks and genetic algorithms)",
-          "description": "data/models/Neural Evolution (combination of neural networks and genetic algorithms).txt"
+          "description": "src/data/models/Neural Evolution (combination of neural networks and genetic algorithms).txt"
         },
         {
           "name": "Neuro-Fuzzy Systems (combination of neural networks and fuzzy logic)",
-          "description": "data/models/Neuro-Fuzzy Systems (combination of neural networks and fuzzy logic).txt"
+          "description": "src/data/models/Neuro-Fuzzy Systems (combination of neural networks and fuzzy logic).txt"
         }
       ]
     }

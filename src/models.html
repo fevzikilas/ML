@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Models</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
+    <nav role="navigation" class="primary-navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">Models</a>
+            <li><a href="about.html">About</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <div id="model-list" class="model-list">
+            <!-- Model information will be dynamically loaded here -->
+        </div>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modelList = document.getElementById('model-list');
+
+            fetch('data/models.json')
+                .then(response => response.json())
+                .then(data => {
+                    data.models.forEach(category => {
+                        const categoryDiv = document.createElement('div');
+                        categoryDiv.classList.add('category-item');
+
+                        const categoryHeader = document.createElement('h3');
+                        categoryHeader.textContent = category.category;
+                        categoryDiv.appendChild(categoryHeader);
+
+                        category.subcategories.forEach(subcategory => {
+                            const subcategoryDiv = document.createElement('div');
+                            subcategoryDiv.classList.add('subcategory-item');
+
+                            const subcategoryHeader = document.createElement('h4');
+                            subcategoryHeader.textContent = subcategory.type;
+                            subcategoryDiv.appendChild(subcategoryHeader);
+
+                            subcategory.algorithms.forEach(algorithm => {
+                                const algorithmDiv = document.createElement('div');
+                                algorithmDiv.classList.add('algorithm-item');
+
+                                const algorithmHeader = document.createElement('h5');
+                                algorithmHeader.textContent = algorithm.name;
+                                algorithmDiv.appendChild(algorithmHeader);
+
+                                const algorithmDetails = document.createElement('div');
+                                algorithmDetails.classList.add('algorithm-details');
+                                algorithmDetails.style.display = 'none';
+                                const algorithmDescription = document.createElement('div');
+                                
+                                fetch(algorithm.description)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error('Cannot GET');
+                                        }
+                                        return response.text();
+                                    })
+                                    .then(text => {
+                                        if (algorithm.description.endsWith('.txt')) {
+                                            algorithmDescription.innerHTML = marked.parse(text);
+                                            algorithmDetails.appendChild(algorithmDescription);
+                                        } else {
+                                            const markAsDoneLabel = document.createElement('label');
+                                            markAsDoneLabel.textContent = algorithm.done ? '' : 'Has not been worked on yet!';
+                                            markAsDoneLabel.classList.add(algorithm.done ? 'done' : 'not-done');
+                                            algorithmDetails.appendChild(markAsDoneLabel);
+                                        }
+                                    })
+                                    .catch(error => {
+                                        console.error('Error loading description:', error);
+                                        const markAsDoneLabel = document.createElement('label');
+                                        markAsDoneLabel.textContent = algorithm.done ? '' : 'Has not been worked on yet!';
+                                        markAsDoneLabel.classList.add(algorithm.done ? 'done' : 'not-done');
+                                        algorithmDetails.appendChild(markAsDoneLabel);
+                                    });
+                              
+
+                                algorithmDiv.appendChild(algorithmDetails);
+
+                                algorithmHeader.addEventListener('click', function() {
+                                    const openDetails = document.querySelectorAll('.algorithm-details');
+                                    openDetails.forEach(detail => {
+                                        if (detail !== algorithmDetails) {
+                                            detail.style.display = 'none';
+                                        }
+                                    });
+                                    algorithmDetails.style.display = algorithmDetails.style.display === 'none' ? 'block' : 'none';
+                                });
+
+                                subcategoryDiv.appendChild(algorithmDiv);
+                            });
+
+                            categoryDiv.appendChild(subcategoryDiv);
+                        });
+
+                        modelList.appendChild(categoryDiv);
+                    });
+                })
+                .catch(error => console.error('Error loading models:', error));
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <footer>
+        <p>&copy; 2025 ML Library. @nieche </p>
+    </footer>
+</body>
+</html>   
+

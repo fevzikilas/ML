@@ -1,0 +1,14 @@
+This file describes Actor-Critic Methods, detailing their hybrid approach in reinforcement learning.
+
+Actor-Critic Methods are a class of algorithms in reinforcement learning that combine the benefits of value-based and policy-based methods. They consist of two main components: the actor and the critic.
+
+1. **Actor**: The actor is responsible for selecting actions based on the current policy. It updates the policy in the direction suggested by the critic, aiming to maximize the expected return.
+
+2. **Critic**: The critic evaluates the action taken by the actor by estimating the value function. It provides feedback to the actor by calculating the temporal difference error, which measures the difference between the predicted value and the actual reward received.
+
+### Advantages:
+- **Stability**: By using both an actor and a critic, these methods can stabilize training and improve convergence rates compared to using either method alone.
+- **Efficiency**: They can learn both the policy and the value function simultaneously, making them more sample-efficient.
+
+### Applications:
+Actor-Critic Methods are widely used in various reinforcement learning tasks, including robotics, game playing, and continuous control problems. They are particularly effective in environments with large action spaces and complex state representations.

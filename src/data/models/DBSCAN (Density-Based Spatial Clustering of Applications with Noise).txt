@@ -1,0 +1,21 @@
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm that groups together points that are closely packed together, marking as outliers points that lie alone in low-density regions. 
+
+### Key Features:
+- **Density-Based Clustering**: Unlike traditional clustering methods that require the number of clusters to be specified in advance, DBSCAN identifies clusters based on the density of data points.
+- **Parameters**: The algorithm requires two parameters: 
+  - `eps`: The maximum distance between two samples for one to be considered as in the neighborhood of the other.
+  - `min_samples`: The number of samples in a neighborhood for a point to be considered as a core point.
+  
+### Advantages:
+- **No Need to Specify Number of Clusters**: DBSCAN can find clusters of arbitrary shapes and does not require the number of clusters to be specified beforehand.
+- **Robust to Outliers**: It effectively identifies outliers as noise, which can be beneficial in many applications.
+
+### Use Cases:
+- **Geospatial Data Analysis**: DBSCAN is widely used in geographical data analysis for identifying clusters of locations.
+- **Anomaly Detection**: It can be used to detect anomalies in data by identifying points that do not belong to any cluster.
+
+### Limitations:
+- **Parameter Sensitivity**: The performance of DBSCAN is sensitive to the choice of `eps` and `min_samples`.
+- **Varying Densities**: It struggles with datasets that have clusters of varying densities, as a single `eps` value may not work well for all clusters.
+
+DBSCAN is implemented in various libraries, including scikit-learn, making it accessible for practical applications in data science and machine learning.

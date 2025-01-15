@@ -1,0 +1,24 @@
+This file outlines Policy Gradient Methods, explaining their approach in reinforcement learning.
+
+Policy Gradient Methods are a class of algorithms in reinforcement learning that optimize the policy directly. Unlike value-based methods, which estimate the value of states or actions, policy gradient methods focus on finding the best policy that maximizes the expected return.
+
+Key concepts include:
+
+1. **Policy Representation**: The policy can be represented as a neural network that outputs a probability distribution over actions given a state.
+
+2. **Objective Function**: The objective is to maximize the expected return, which can be expressed as:
+   J(θ) = E[∑(t=0 to T) γ^t * r_t]
+   where θ are the parameters of the policy, γ is the discount factor, and r_t is the reward at time t.
+
+3. **Gradient Estimation**: The policy gradient can be estimated using the REINFORCE algorithm, which uses the following update rule:
+   θ ← θ + α * ∇_θ J(θ)
+   where α is the learning rate.
+
+4. **Advantages**: Policy gradient methods can handle high-dimensional action spaces and are suitable for stochastic policies.
+
+5. **Common Algorithms**: Some popular policy gradient algorithms include:
+   - REINFORCE
+   - Proximal Policy Optimization (PPO)
+   - Trust Region Policy Optimization (TRPO)
+
+Policy gradient methods are widely used in various applications, including robotics, game playing, and natural language processing, due to their flexibility and effectiveness in complex environments.

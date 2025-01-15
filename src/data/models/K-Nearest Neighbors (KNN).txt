@@ -1,0 +1,21 @@
+K-Nearest Neighbors (KNN) is a simple, yet powerful algorithm used for both classification and regression tasks. It operates on the principle of finding the 'k' closest data points in the feature space to make predictions about a new data point.
+
+### Algorithm Overview:
+1. **Distance Metric**: KNN uses distance metrics such as Euclidean, Manhattan, or Minkowski to determine the proximity of data points.
+2. **Choosing 'k'**: The value of 'k' is crucial; a small 'k' can lead to noise sensitivity, while a large 'k' may smooth out the decision boundary.
+3. **Voting Mechanism**: For classification, KNN assigns the class label based on the majority vote of the 'k' nearest neighbors. For regression, it averages the values of the nearest neighbors.
+
+### Use Cases:
+- **Classification**: KNN is widely used in image recognition, recommendation systems, and pattern recognition.
+- **Regression**: It can also predict continuous values, such as prices or temperatures, based on the average of the nearest neighbors.
+
+### Advantages:
+- Simple to understand and implement.
+- No assumptions about data distribution.
+- Naturally handles multi-class cases.
+
+### Limitations:
+- Computationally expensive for large datasets, as it requires distance calculations for all training samples.
+- Sensitive to irrelevant features and the scale of the data.
+
+KNN is a versatile algorithm that can be applied in various domains, making it a popular choice for many machine learning tasks.

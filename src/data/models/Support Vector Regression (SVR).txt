@@ -1,0 +1,15 @@
+Support Vector Regression (SVR) is a type of Support Vector Machine (SVM) that is used for regression tasks. It aims to find a function that deviates from the actual observed targets by a value no greater than a specified margin (epsilon) while being as flat as possible. 
+
+Key principles of SVR include:
+
+1. **Epsilon-Insensitive Loss Function**: SVR uses an epsilon-insensitive loss function, which means that errors within a certain threshold (epsilon) are ignored. This allows for a more robust model that is less sensitive to outliers.
+
+2. **Support Vectors**: The model is determined by a subset of the training data known as support vectors. These are the data points that lie closest to the decision boundary and have the most influence on the model.
+
+3. **Kernel Trick**: SVR can use different kernel functions (linear, polynomial, radial basis function, etc.) to transform the input space into a higher-dimensional space, allowing it to capture complex relationships in the data.
+
+4. **Regularization**: SVR includes a regularization parameter (C) that controls the trade-off between maximizing the margin and minimizing the training error. A smaller C encourages a larger margin, while a larger C focuses on minimizing the error.
+
+**Use Cases**:
+- SVR is effective in scenarios where the relationship between the input features and the target variable is non-linear.
+- It is commonly used in financial forecasting, time series prediction, and any domain where regression analysis is required with a focus on robustness against outliers.

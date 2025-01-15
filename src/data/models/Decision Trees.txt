@@ -1,0 +1,21 @@
+Decision Trees are a type of supervised learning algorithm used for both classification and regression tasks. They work by splitting the data into subsets based on the value of input features, creating a tree-like model of decisions.
+
+**Structure:**
+A decision tree consists of nodes, branches, and leaves. Each internal node represents a feature (or attribute), each branch represents a decision rule, and each leaf node represents an outcome (or class label).
+
+**Advantages:**
+- Easy to understand and interpret.
+- Requires little data preprocessing (no need for normalization).
+- Can handle both numerical and categorical data.
+- Non-parametric, meaning they do not assume any underlying distribution of the data.
+
+**Limitations:**
+- Prone to overfitting, especially with complex trees.
+- Sensitive to noisy data and outliers.
+- Can be biased towards features with more levels.
+
+**Common Use Cases:**
+- Customer segmentation.
+- Risk assessment.
+- Medical diagnosis.
+- Predictive modeling in various domains.

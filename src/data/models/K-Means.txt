@@ -1,0 +1,26 @@
+K-Means Clustering
+
+Definition:
+K-Means is a popular unsupervised machine learning algorithm used for clustering data into distinct groups based on feature similarity. The algorithm partitions the dataset into K clusters, where each data point belongs to the cluster with the nearest mean.
+
+Algorithm:
+1. Initialize K centroids randomly from the dataset.
+2. Assign each data point to the nearest centroid, forming K clusters.
+3. Recalculate the centroids as the mean of all data points in each cluster.
+4. Repeat steps 2 and 3 until the centroids no longer change significantly or a maximum number of iterations is reached.
+
+Applications:
+- Market segmentation
+- Image compression
+- Anomaly detection
+- Document clustering
+
+Advantages:
+- Simple and easy to implement.
+- Efficient for large datasets.
+- Works well when clusters are spherical and evenly sized.
+
+Limitations:
+- Requires the number of clusters (K) to be specified in advance.
+- Sensitive to the initial placement of centroids.
+- May converge to a local minimum, leading to suboptimal clustering.

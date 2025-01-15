@@ -1,0 +1,19 @@
+This file describes Locally Weighted Learning, detailing its approach in regression tasks. Locally Weighted Learning (LWL) is a non-parametric regression technique that focuses on fitting a model to a subset of the data that is locally relevant to the prediction being made. 
+
+In LWL, the model is trained using a weighted subset of the training data, where the weights decrease with distance from the query point. This allows the model to adapt to local variations in the data, making it particularly useful for datasets with non-linear relationships.
+
+Key characteristics of Locally Weighted Learning include:
+
+1. **Locality**: The model considers only the data points that are close to the point of interest, allowing for more accurate predictions in regions where the data may vary significantly.
+
+2. **Weighting**: The influence of each training example is determined by a weighting function, typically a Gaussian kernel, which assigns higher weights to closer points and lower weights to those further away.
+
+3. **Flexibility**: LWL can adapt to different shapes of data distributions, making it suitable for a wide range of regression problems.
+
+4. **Computational Cost**: While LWL can provide high accuracy, it may be computationally expensive, especially with large datasets, as it requires recalculating weights for each prediction.
+
+Applications of Locally Weighted Learning include:
+
+- Non-linear regression tasks where traditional linear models may fail.
+- Situations where the underlying data distribution changes over different regions of the input space.
+- Real-time prediction scenarios where quick adaptations to new data points are necessary.

@@ -1,0 +1,12 @@
+Lasso Regression is a linear regression technique that incorporates L1 regularization to enhance model performance and interpretability. It works by adding a penalty equal to the absolute value of the magnitude of coefficients to the loss function. This penalty encourages sparsity in the model, effectively reducing the number of features by driving some coefficients to zero.
+
+### Characteristics:
+- **Regularization**: Lasso regression applies L1 regularization, which can lead to simpler models that are easier to interpret.
+- **Feature Selection**: By forcing some coefficients to be exactly zero, Lasso performs automatic feature selection, making it useful when dealing with high-dimensional datasets.
+
+### Advantages:
+- **Simplicity**: The resulting model is often simpler and more interpretable than models without regularization.
+- **Overfitting Prevention**: The regularization term helps prevent overfitting, especially in cases with many predictors.
+
+### Applications:
+- Lasso regression is commonly used in scenarios where feature selection is crucial, such as in genetics, finance, and any domain with high-dimensional data. It is particularly effective when the number of predictors exceeds the number of observations.

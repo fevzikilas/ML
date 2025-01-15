@@ -1,0 +1,23 @@
+Elastic Net Regression is a regularization technique that combines the properties of both Ridge and Lasso regression. It is particularly useful when dealing with datasets that have highly correlated features.
+
+### Definition
+Elastic Net Regression aims to improve the prediction accuracy and interpretability of the statistical model it produces. It does this by adding a penalty term to the loss function, which is a linear combination of the L1 (Lasso) and L2 (Ridge) penalties.
+
+### Mathematical Formulation
+The Elastic Net loss function can be expressed as:
+
+Loss = ||y - Xβ||² + λ₁||β||₁ + λ₂||β||²
+
+Where:
+- y is the response variable.
+- X is the matrix of features.
+- β represents the coefficients.
+- λ₁ and λ₂ are the regularization parameters for Lasso and Ridge penalties, respectively.
+
+### Use Cases
+Elastic Net is particularly effective in scenarios where:
+- There are multiple features that are correlated with each other.
+- The number of predictors (features) is much larger than the number of observations.
+- A balance between feature selection (Lasso) and regularization (Ridge) is desired.
+
+This technique is widely used in various fields, including finance, bioinformatics, and social sciences, where model interpretability and prediction accuracy are crucial.

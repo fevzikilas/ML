@@ -1,0 +1,9 @@
+Mean Shift is a non-parametric clustering algorithm that aims to discover clusters in a dataset by iteratively shifting data points towards the mode (the densest area) of the data distribution. The algorithm works by defining a window (or kernel) around each data point and calculating the mean of the points within this window. The data point is then moved to this mean position, and the process is repeated until convergence, meaning the points no longer move significantly.
+
+Applications of Mean Shift include:
+
+1. **Image Segmentation**: It can be used to segment images based on color similarity.
+2. **Object Tracking**: In computer vision, Mean Shift is often used for tracking objects in video sequences.
+3. **Pattern Recognition**: It helps in identifying patterns in data without assuming any prior distribution.
+
+Mean Shift is particularly useful in scenarios where the number of clusters is not known a priori, making it a flexible choice for exploratory data analysis. However, it can be computationally intensive, especially with large datasets.

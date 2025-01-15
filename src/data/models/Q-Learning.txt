@@ -1,0 +1,25 @@
+Q-Learning is a model-free reinforcement learning algorithm used to learn the value of an action in a particular state. It is based on the concept of learning a policy that maximizes the total reward over time. The algorithm updates the Q-values, which represent the expected utility of taking a given action in a given state, using the Bellman equation.
+
+The key components of Q-Learning include:
+
+1. **States (S)**: The different situations in which an agent can find itself.
+2. **Actions (A)**: The choices available to the agent in each state.
+3. **Rewards (R)**: The feedback received after taking an action in a state, which guides the learning process.
+4. **Q-Values (Q)**: The values that represent the expected future rewards for action taken in a given state.
+
+The Q-Learning algorithm follows these steps:
+
+1. Initialize the Q-values arbitrarily for all state-action pairs.
+2. For each episode, observe the current state.
+3. Choose an action based on the current policy (e.g., ε-greedy).
+4. Take the action, observe the reward and the next state.
+5. Update the Q-value using the formula:
+   Q(s, a) ← Q(s, a) + α [R + γ max Q(s', a') - Q(s, a)]
+   where:
+   - α is the learning rate,
+   - γ is the discount factor,
+   - s' is the next state,
+   - a' are the possible actions in the next state.
+6. Repeat until convergence.
+
+Q-Learning is widely used in various applications, including game playing, robotics, and autonomous systems, due to its ability to learn optimal policies without requiring a model of the environment.

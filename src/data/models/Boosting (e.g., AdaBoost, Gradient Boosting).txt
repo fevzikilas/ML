@@ -1,0 +1,5 @@
+This file describes Boosting, detailing its ensemble learning methods. Boosting is a powerful ensemble technique that combines multiple weak learners to create a strong predictive model. The main idea is to sequentially apply weak classifiers to the training data, adjusting the weights of misclassified instances so that subsequent classifiers focus more on difficult cases. 
+
+Common boosting algorithms include AdaBoost, Gradient Boosting, and their variants. AdaBoost works by assigning weights to each instance and updating these weights based on the performance of the previous classifiers. Gradient Boosting, on the other hand, builds models in a stage-wise fashion, optimizing a loss function using gradient descent.
+
+Boosting is widely used in various applications, including classification and regression tasks, due to its ability to improve accuracy and reduce bias. However, it can be sensitive to noisy data and outliers, which may lead to overfitting if not properly managed.

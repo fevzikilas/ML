@@ -1,0 +1,10 @@
+AdaBoost, short for Adaptive Boosting, is an ensemble learning technique that combines multiple weak classifiers to create a strong classifier. It works by sequentially applying weak classifiers to the training data, adjusting the weights of incorrectly classified instances so that subsequent classifiers focus more on difficult cases.
+
+The key steps in the AdaBoost algorithm are as follows:
+
+1. **Initialization**: Assign equal weights to all training instances.
+2. **Training Weak Classifiers**: For a specified number of iterations, train a weak classifier on the weighted training data.
+3. **Weight Adjustment**: After each classifier is trained, update the weights of the instances based on the classifier's performance. Misclassified instances receive higher weights, while correctly classified instances receive lower weights.
+4. **Combining Classifiers**: The final strong classifier is formed by taking a weighted majority vote of the weak classifiers, where the weights are determined by the classifiers' accuracy.
+
+AdaBoost is particularly effective for binary classification problems and can be used with various types of weak classifiers, such as decision trees. Its ability to improve the performance of weak learners makes it a popular choice in machine learning applications.

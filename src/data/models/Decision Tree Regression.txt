@@ -1,0 +1,21 @@
+Decision Tree Regression is a non-parametric supervised learning method used for regression tasks. It models the relationship between the input features and the target variable by creating a tree-like structure, where each internal node represents a decision based on a feature, and each leaf node represents the predicted output.
+
+### Structure
+- **Root Node**: The top node that represents the entire dataset.
+- **Internal Nodes**: Nodes that represent decisions based on feature values.
+- **Leaf Nodes**: Terminal nodes that represent the predicted output.
+
+### Advantages
+- **Interpretability**: The model is easy to understand and visualize.
+- **Non-linearity**: It can capture non-linear relationships between features and the target variable.
+- **No Need for Feature Scaling**: Decision trees do not require normalization or standardization of features.
+
+### Limitations
+- **Overfitting**: Decision trees can easily overfit the training data, especially with deep trees.
+- **Instability**: Small changes in the data can lead to different tree structures.
+- **Bias**: They can be biased towards features with more levels.
+
+### Use Cases
+- Predicting house prices based on various features (e.g., size, location).
+- Forecasting sales based on historical data.
+- Any scenario where interpretability of the model is crucial.

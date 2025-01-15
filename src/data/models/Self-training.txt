@@ -1,0 +1,13 @@
+Self-training is a semi-supervised learning approach that leverages a small amount of labeled data along with a larger set of unlabeled data. The main idea is to iteratively improve the model's performance by using its own predictions on the unlabeled data as pseudo-labels.
+
+In the self-training process, the following steps are typically followed:
+
+1. **Initial Training**: A model is trained on the available labeled data to create an initial classifier.
+
+2. **Pseudo-Labeling**: The trained model is then used to predict labels for the unlabeled data. The most confident predictions are selected as pseudo-labels.
+
+3. **Model Update**: The model is retrained using both the original labeled data and the newly pseudo-labeled data.
+
+4. **Iteration**: Steps 2 and 3 are repeated for a specified number of iterations or until a convergence criterion is met.
+
+Self-training is particularly useful in scenarios where acquiring labeled data is expensive or time-consuming, allowing the model to benefit from the additional information present in the unlabeled dataset. However, care must be taken to ensure that the pseudo-labels are accurate, as incorrect labels can lead to a degradation in model performance.

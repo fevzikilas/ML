@@ -1,0 +1,13 @@
+This file outlines Recurrent Neural Networks (RNNs), explaining their use in sequential data processing. RNNs are a class of neural networks designed to recognize patterns in sequences of data, such as time series or natural language. Unlike traditional feedforward neural networks, RNNs have connections that loop back on themselves, allowing them to maintain a memory of previous inputs. This makes them particularly effective for tasks like language modeling, speech recognition, and time series prediction.
+
+Key characteristics of RNNs include:
+
+1. **Sequential Processing**: RNNs process input sequences one element at a time, maintaining a hidden state that captures information about previous elements in the sequence.
+
+2. **Memory**: The hidden state allows RNNs to remember information from earlier in the sequence, making them suitable for tasks where context is important.
+
+3. **Backpropagation Through Time (BPTT)**: RNNs are trained using a variant of backpropagation that accounts for the temporal nature of the data, allowing gradients to flow through time steps.
+
+4. **Applications**: RNNs are widely used in natural language processing (NLP) for tasks such as machine translation, sentiment analysis, and text generation. They are also applied in speech recognition and time series forecasting.
+
+Despite their strengths, RNNs can suffer from issues like vanishing and exploding gradients, which can make training difficult for long sequences. Variants like Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs) have been developed to address these challenges by incorporating mechanisms to better manage long-range dependencies.

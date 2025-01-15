@@ -1,0 +1,7 @@
+Support Vector Machines (SVM) are supervised learning models used for classification and regression tasks. They work by finding the optimal hyperplane that separates data points of different classes in a high-dimensional space. The key idea is to maximize the margin between the closest points of the classes, known as support vectors.
+
+In classification tasks, SVMs can handle both linear and non-linear data by using kernel functions, which transform the input space into a higher-dimensional space where a linear separator can be found. Common kernels include linear, polynomial, and radial basis function (RBF) kernels.
+
+For regression tasks, SVMs can be adapted to Support Vector Regression (SVR), which aims to find a function that deviates from the actual target values by a value no greater than a specified margin. This makes SVMs robust to outliers and effective in high-dimensional spaces.
+
+SVMs are widely used in various applications, including image recognition, text classification, and bioinformatics, due to their effectiveness in handling complex datasets and their ability to generalize well to unseen data.

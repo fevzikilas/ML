@@ -1,0 +1,15 @@
+This file discusses Gaussian Mixture Models (GMM), explaining its probabilistic approach to clustering. GMM is a generative probabilistic model that assumes all data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. 
+
+Key points include:
+
+1. **Definition**: GMM is used for clustering and density estimation, where each cluster is represented by a Gaussian distribution.
+
+2. **Mathematical Formulation**: The model is defined by the parameters of the Gaussian distributions (mean and covariance) and the mixing coefficients that determine the weight of each Gaussian in the mixture.
+
+3. **Expectation-Maximization (EM) Algorithm**: GMM typically uses the EM algorithm for parameter estimation, alternating between assigning data points to clusters and updating the parameters of the Gaussians.
+
+4. **Applications**: GMM is widely used in various fields such as image processing, speech recognition, and anomaly detection due to its flexibility in modeling complex data distributions.
+
+5. **Advantages**: GMM can model clusters of different shapes and sizes, unlike K-Means which assumes spherical clusters.
+
+6. **Limitations**: The model can be sensitive to initialization and may converge to local optima. Additionally, it assumes that the data is generated from a Gaussian distribution, which may not always be the case.

@@ -1,0 +1,17 @@
+Ridge Regression is a type of linear regression that includes a regularization term to prevent overfitting. It adds a penalty equal to the square of the magnitude of coefficients to the loss function. This technique is particularly useful when dealing with multicollinearity, where independent variables are highly correlated.
+
+Mathematically, Ridge Regression minimizes the following cost function:
+
+L(β) = ||y - Xβ||² + λ||β||²
+
+Where:
+- L(β) is the loss function.
+- y is the vector of observed values.
+- X is the matrix of input features.
+- β is the vector of coefficients.
+- λ (lambda) is the regularization parameter that controls the strength of the penalty.
+
+Use Cases:
+- Ridge Regression is commonly used in scenarios where the number of predictors exceeds the number of observations.
+- It is effective in situations where multicollinearity is present, as it stabilizes the estimates of the coefficients.
+- It can be applied in various fields such as finance, biology, and social sciences for predictive modeling.

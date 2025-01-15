@@ -1,0 +1,9 @@
+Logistic Regression is a statistical method used for binary classification tasks. It models the probability that a given input belongs to a particular category. The logistic function, also known as the sigmoid function, is used to map predicted values to probabilities between 0 and 1.
+
+Mathematically, the logistic regression model can be expressed as:
+
+P(Y=1|X) = 1 / (1 + e^(-z))
+
+where z = β0 + β1X1 + β2X2 + ... + βnXn, and β0, β1, ..., βn are the coefficients of the model.
+
+Logistic regression is widely used in various fields, including medicine, finance, and social sciences, for tasks such as predicting disease presence, credit scoring, and customer churn analysis. Its simplicity and interpretability make it a popular choice for binary classification problems.

@@ -1,0 +1,22 @@
+K-Nearest Neighbors (KNN) Regression is a non-parametric, instance-based learning algorithm used for regression tasks. It operates by finding the 'k' closest training examples in the feature space to a given test instance and predicting the output based on the average (or weighted average) of these neighbors' outputs.
+
+### Methodology:
+1. **Distance Metric**: The algorithm typically uses Euclidean distance to measure the proximity between instances, although other distance metrics like Manhattan or Minkowski can also be employed.
+2. **Choosing 'k'**: The value of 'k' is crucial; a small 'k' can lead to noise sensitivity, while a large 'k' may smooth out important patterns.
+3. **Prediction**: For a given input, the algorithm identifies the 'k' nearest neighbors and computes the average of their outputs to make a prediction.
+
+### Use Cases:
+- KNN Regression is particularly useful in scenarios where the relationship between features and the target variable is complex and non-linear.
+- It is commonly applied in fields such as finance for predicting stock prices, in real estate for estimating property values, and in various domains where historical data can inform future predictions.
+
+### Advantages:
+- Simple to understand and implement.
+- Naturally handles multi-dimensional data.
+- No assumptions about the underlying data distribution.
+
+### Limitations:
+- Computationally expensive as it requires distance calculations for all training instances.
+- Performance can degrade with high-dimensional data (curse of dimensionality).
+- Sensitive to irrelevant features and the scale of the data.
+
+In summary, KNN Regression is a versatile and intuitive method for regression tasks, particularly effective when the data exhibits local patterns.

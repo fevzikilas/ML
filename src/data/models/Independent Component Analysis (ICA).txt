@@ -1,0 +1,17 @@
+This file outlines Independent Component Analysis (ICA), explaining its use in separating mixed signals.
+
+Independent Component Analysis (ICA) is a computational technique used to separate a multivariate signal into additive, independent components. It is widely used in the fields of signal processing and data analysis, particularly for applications such as:
+
+1. **Blind Source Separation**: ICA is commonly applied in scenarios where the source signals are unknown and mixed together, such as separating different audio sources from a single recording.
+
+2. **Neuroimaging**: In functional MRI (fMRI) data analysis, ICA helps identify brain networks by separating the underlying independent signals from the observed data.
+
+3. **Feature Extraction**: ICA can be used to extract relevant features from high-dimensional data, improving the performance of machine learning models.
+
+The key assumption of ICA is that the source signals are statistically independent and non-Gaussian. The method typically involves the following steps:
+
+- Centering the data: Subtracting the mean to ensure the data has a zero mean.
+- Whiten the data: Transforming the data to have unit variance and be uncorrelated.
+- Estimating the independent components: Using algorithms such as FastICA to find the independent sources.
+
+ICA is particularly effective in scenarios where traditional methods like Principal Component Analysis (PCA) may fail, especially when the signals are mixed in a non-linear manner.

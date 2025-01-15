@@ -1,0 +1,13 @@
+This file describes MCMC, explaining its sampling methods in statistics. Markov Chain Monte Carlo (MCMC) is a class of algorithms used to sample from a probability distribution based on constructing a Markov chain that has the desired distribution as its equilibrium distribution. MCMC methods are particularly useful in Bayesian statistics, where they allow for the estimation of posterior distributions that are difficult to compute directly.
+
+Key concepts include:
+
+1. **Markov Chains**: A sequence of random variables where the future state depends only on the current state and not on the sequence of events that preceded it.
+
+2. **Sampling**: MCMC generates samples from a probability distribution by simulating the Markov chain and using the samples to approximate the distribution.
+
+3. **Applications**: MCMC is widely used in various fields such as machine learning, statistical physics, and computational biology for tasks like parameter estimation, hypothesis testing, and model selection.
+
+4. **Common Algorithms**: Some popular MCMC algorithms include the Metropolis-Hastings algorithm and Gibbs sampling.
+
+5. **Convergence**: Assessing the convergence of the Markov chain to ensure that the samples are representative of the target distribution is crucial in MCMC applications.

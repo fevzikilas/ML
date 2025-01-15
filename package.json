@@ -1,0 +1,22 @@
+{
+  "name": "ml-library-website",
+  "version": "1.0.0",
+  "description": "A simple website for managing machine learning models.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "machine learning",
+    "models",
+    "library",
+    "website"
+  ],
+  "author": "Fevzi KILAS",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
